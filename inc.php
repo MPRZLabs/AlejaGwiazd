@@ -39,7 +39,7 @@
     echo "<span class=\"icon-bar\"></span>";
     echo "<span class=\"icon-bar\"></span>";
     echo "</button>";
-    echo "<a class=\"navbar-brand\" href="/">" . TEHSITETITLE . "</a>";
+    echo "<a class=\"navbar-brand\" href=\"/\">" . TEHSITETITLE . "</a>";
     echo "</div>";
     echo "<div class=\"collapse navbar-collapse navbar-ex1-collapse\">";
     echo "<ul class=\"nav navbar-nav\">";
