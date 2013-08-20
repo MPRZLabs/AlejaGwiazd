@@ -19,7 +19,7 @@
   function mpi_jumbo($srcname)
   {
     echo "<div class=\"jumbotron\"><div class=\"container\">";
-    echo mpi_readcodeasset($srcname);
+    echo mpi_readtextasset($srcname);
     echo "</div></div>";
   }
   function mpi_poemmodal($codename, $poemtitle)
@@ -46,17 +46,6 @@
   {
     $output = "";
     $file = fopen("assets/".$filename.".txt", "r");
-    while(!feof($file))
-    {
-      $output = $output.fgets($file)."<br>";
-    }
-    fclose($file);
-    return $output;
-  }
-  function mpi_readcodeasset($filename)
-  {
-    $output = "";
-    $file = fopen("assets/".$filename.".html", "r");
     while(!feof($file))
     {
       $output = $output.fgets($file)."<br>";
@@ -98,6 +87,7 @@
   function mpi_navbar()
   {
     mpi_navbar_start();
+    mpi_navbar_page("Kasia");
     mpi_navbar_page("Michcioperz");
     mpi_navbar_end();
   }
