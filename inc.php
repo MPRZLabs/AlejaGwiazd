@@ -1,24 +1,20 @@
 <?php
   define("TEHSITETITLE","Aleja Gwiazd");
-  function mpi_header($pagetitle)
+  function mpi_header()
   {
     echo "<!DOCTYPE html>";
     echo "<html>";
     echo "<head>";
     echo "<meta charset=\"UTF-8\">";
-    if ($pagetitle != null) {
-      echo "<title>" . $pagetitle . " - " . TEHSITETITLE . "</title>";
-    } else {
-      echo "<title>" . TEHSITETITLE . "</title>";
-    }
+    echo "<title>" . TEHPAGETITLE . " - " . TEHSITETITLE . "</title>";
     echo "<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css\">";
     echo "<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css\">";
     echo "<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>";
     echo "<script src=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js\"></script>";
-    echo "<link rel=\"stylesheet\" href=\"/css/" . $pagetitle . ".css\">";
+    echo "<link rel=\"stylesheet\" href=\"/css/" . TEHPAGETITLE . ".css\">";
     echo "</head>";
     echo "<body>";
-    mpi_navbar($pagetitle);
+    mpi_navbar();
   }
   function mpi_footer()
   {
@@ -50,7 +46,7 @@
     echo "</div>";
     echo "</nav>";
   }
-  function mpi_navbar($pagetitle)
+  function mpi_navbar()
   {
     mpi_navbar_start();
     mpi_navbar_page("Michcioperz");

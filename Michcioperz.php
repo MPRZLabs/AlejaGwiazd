@@ -1,5 +1,6 @@
 <?php
+define("TEHPAGETITLE", "Michcioperz");
 require "inc.php";
-mpi_header("Michcioperz");
+mpi_header();
 mpi_footer();
 ?>
