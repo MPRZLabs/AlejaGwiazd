@@ -16,8 +16,57 @@
     echo "<body>";
     mpi_navbar();
   }
+  function mpi_jumbo($srcname)
+  {
+    echo "<div class=\"jumbotron\"><div class=\"container\">";
+    echo mpi_readcodeasset($srcname);
+    echo "</div></div>";
+  }
+  function mpi_poemmodal($codename, $poemtitle)
+  {
+    echo "<div class=\"modal fade\" id=\"modal_".$codename."\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modal_".$codename."_label\" aria-hidden=\"true\">";
+    echo "<div class=\"modal-dialog\">";
+    echo "<div class=\"modal-content\">";
+    echo "<div class=\"modal-header\">";
+    echo "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>";
+    echo "<h4 class=\"modal-title\">".$poemtitle."</h4>";
+    echo "</div>";
+    echo "<div class=\"modal-body\">";
+    echo mpi_readtextasset($codename);
+    echo "</div>";
+    echo "</div>";
+    echo "</div>";
+    echo "</div>";
+  }
+  function mpi_poembutton($codename, $poemtitle)
+  {
+    echo "<a data-toggle=\"modal\" href=\"#modal_".$codename."\" class=\"btn btn-info\">".$poemtitle."</a>";
+  }
+  function mpi_readtextasset($filename)
+  {
+    $output = "";
+    $file = fopen("assets/".$filename.".txt", "r");
+    while(!feof($file))
+    {
+      $output = $output.fgets($file)."<br>";
+    }
+    fclose($file);
+    return $output;
+  }
+  function mpi_readcodeasset($filename)
+  {
+    $output = "";
+    $file = fopen("assets/".$filename.".html", "r");
+    while(!feof($file))
+    {
+      $output = $output.fgets($file)."<br>";
+    }
+    fclose($file);
+    return $output;
+  }
   function mpi_footer()
   {
+    echo "<div class=\"container\">Code&design by <a href=\"http://ijestfajnie.pl\">Michcioperz</a></div>";
     echo "</body>";
     echo "</html>";
   }
