@@ -1,5 +1,5 @@
 <?php
 require "inc.php";
-mpi_header("Michcioperz");
+mpi_header("Start");
 mpi_footer();
 ?>

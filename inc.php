@@ -1,5 +1,5 @@
 <?php
-  $sitetitle = "Aleja Gwiazd";
+  define("TEHSITETITLE","Aleja Gwiazd");
   function mpi_header($pagetitle)
   {
     echo "<!DOCTYPE html>";
@@ -7,9 +7,9 @@
     echo "<head>";
     echo "<meta charset=\"UTF-8\">";
     if ($pagetitle != null) {
-      echo "<title>" . $pagetitle . " - " . $sitetitle . "</title>";
+      echo "<title>" . $pagetitle . " - " . TEHSITETITLE . "</title>";
     } else {
-      echo "<title>Aleja Gwiazd</title>";
+      echo "<title>" . TEHSITETITLE . "</title>";
     }
     echo "<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css\">";
     echo "<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css\">";
@@ -38,8 +38,8 @@
     echo "<span class=\"icon-bar\"></span>";
     echo "<span class=\"icon-bar\"></span>";
     echo "<span class=\"icon-bar\"></span>";
-    echo "</button">;
-    echo "<a class=\"navbar-brand\" href="/">" . $sitetitle . "</a>";
+    echo "</button>";
+    echo "<a class=\"navbar-brand\" href="/">" . TEHSITETITLE . "</a>";
     echo "</div>";
     echo "<div class=\"collapse navbar-collapse navbar-ex1-collapse\">";
     echo "<ul class=\"nav navbar-nav\">";
