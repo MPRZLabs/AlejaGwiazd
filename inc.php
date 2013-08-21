@@ -6,6 +6,7 @@
     echo "<html>";
     echo "<head>";
     echo "<meta charset=\"UTF-8\">";
+    echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
     echo "<title>" . TEHPAGETITLE . " - " . TEHSITETITLE . "</title>";
     echo "<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css\">";
     echo "<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css\">";
