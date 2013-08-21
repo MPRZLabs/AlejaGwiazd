@@ -87,4 +87,39 @@
     mpi_navbar_page("Michcioperz");
     mpi_navbar_end();
   }
+  function mpi_carousel($id, $items)
+  {
+    $carie = "<div id=\"" . $id . "\" class=\"carousel slide\"><ol class=\"carousel-indicators\">";
+    $indic = 0;
+    foreach ($items as $indk) {
+      if ($indic == 0)
+      {
+	$carie = $carie."<li class=\"active\" data-target=\"#".$id."\" data-slide-to=\"".$indic."\"></li>";
+      } else {
+	$carie = $carie."<li data-target=\"#".$id."\" data-slide-to=\"".$indic."\"></li>";
+      }
+      $indic++;
+    }
+    $carie = $carie."</ol><div class=\"carousel-inner\">";
+    $indic = 0;
+    foreach ($items as $k => $v)
+    {
+      if ($indic++ == 0){
+	$carie = $carie . mpi_carousel_item($k, $v, true);
+      } else {
+	$carie = $carie . mpi_carousel_item($k, $v, false);
+      }
+    }
+    $carie = $carie."</div><a class=\"left carousel-control\" href=\"#".$id."\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-chevron-left\"></span></a><a class=\"right carousel-control\" href=\"#".$id."\" data-slide=\"next\"><span class=\"glyphicon glyphicon-chevron-right\"></span></a></div>";
+    return $carie;
+  }
+  function mpi_carousel_item($person, $description, $active)
+  {
+    if ($active)
+    {
+      return "<div class=\"item active\"><img src=\"assets/".$person."-carousel.png\" alt=\"".$person."\"><div class=\"carousel-caption\">".$description."</div></div>";
+    } else {
+      return "<div class=\"item\"><img src=\"assets/".$person."-carousel.png\" alt=\"".$person."\"><div class=\"carousel-caption\">".$description."</div></div>";
+    }
+  }
 ?>
