@@ -110,7 +110,7 @@
 	$carie = $carie . mpi_carousel_item($k, $v, false);
       }
     }
-    $carie = $carie."</div><a class=\"left carousel-control\" href=\"#".$id."\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-chevron-left\"></span></a><a class=\"right carousel-control\" href=\"#".$id."\" data-slide=\"next\"><span class=\"glyphicon glyphicon-chevron-right\"></span></a></div>";
+    $carie = $carie."</div><a class=\"left carousel-control\" href=\"#".$id."\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-fast-backward\"></span></a><a class=\"right carousel-control\" href=\"#".$id."\" data-slide=\"next\"><span class=\"glyphicon glyphicon-fast-forward\"></span></a></div>";
     return $carie;
   }
   function mpi_carousel_item($person, $description, $active)
