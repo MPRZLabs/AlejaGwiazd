@@ -2,6 +2,6 @@
 define("TEHPAGETITLE","Start");
 require "inc.php";
 mpi_header();
-mpi_jumbo("introintro");
+echo mpi_container(mpi_jumbo(mpi_readtextasset("introintro")));
 mpi_footer();
 ?>

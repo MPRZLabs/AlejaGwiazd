@@ -16,31 +16,25 @@
     echo "<body>";
     mpi_navbar();
   }
-  function mpi_jumbo($srcname)
+  function mpi_container($inside)
   {
-    echo "<div class=\"jumbotron\"><div class=\"container\">";
-    echo mpi_readtextasset($srcname);
-    echo "</div></div>";
+    return "<div class=\"container\">" . $inside . "</div>";
+  }
+  function mpi_jumbo($inside)
+  {
+    return "<div class=\"jumbotron\">" . mpi_container($inside) . "</div>";
+  }
+  function mpi_poem($codename, $poemtitle)
+  {
+    return mpi_poembutton($codename, $poemtitle) . mpi_poemmodal($codename, $poemtitle);
   }
   function mpi_poemmodal($codename, $poemtitle)
   {
-    echo "<div class=\"modal fade\" id=\"modal_".$codename."\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modal_".$codename."_label\" aria-hidden=\"true\">";
-    echo "<div class=\"modal-dialog\">";
-    echo "<div class=\"modal-content\">";
-    echo "<div class=\"modal-header\">";
-    echo "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>";
-    echo "<h4 class=\"modal-title\">".$poemtitle."</h4>";
-    echo "</div>";
-    echo "<div class=\"modal-body\">";
-    echo mpi_readtextasset($codename);
-    echo "</div>";
-    echo "</div>";
-    echo "</div>";
-    echo "</div>";
+    return "<div class=\"modal fade\" id=\"modal_".$codename."\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modal_".$codename."_label\" aria-hidden=\"true\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button><h4 class=\"modal-title\">".$poemtitle."</h4></div><div class=\"modal-body\">" . mpi_readtextasset($codename) . "</div></div></div></div>";
   }
   function mpi_poembutton($codename, $poemtitle)
   {
-    echo "<a data-toggle=\"modal\" href=\"#modal_".$codename."\" class=\"btn btn-info\">".$poemtitle."</a>";
+    return "<a data-toggle=\"modal\" href=\"#modal_".$codename."\" class=\"btn btn-info\">".$poemtitle."</a>";
   }
   function mpi_readtextasset($filename)
   {
@@ -55,7 +49,7 @@
   }
   function mpi_footer()
   {
-    echo "<div class=\"container\">Code&design by <a href=\"http://ijestfajnie.pl\">Michcioperz</a></div>";
+    echo "<div class=\"container\">Code&design by <a href=\"http://ijestfajnie.pl\">Michcioperz</a>. Powered by <a href=\"http://github.com/michcioperz/AlejaGwiazd\">MPi Framework</a> reusable under terms of MIT license. All rights for assets and content reserved.</div>";
     echo "</body>";
     echo "</html>";
   }
