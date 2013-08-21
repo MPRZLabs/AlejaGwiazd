@@ -36,7 +36,7 @@
   }
   function mpi_poembutton($codename, $poemtitle)
   {
-    return "<a data-toggle=\"modal\" href=\"#modal_".$codename."\" class=\"btn btn-info\">".$poemtitle."</a>";
+    return "<a data-toggle=\"modal\" href=\"#modal_".$codename."\" class=\"btn btn-info\"><span class=\"glyphicon glyphicon-book\"></span>".$poemtitle."</a>";
   }
   function mpi_readtextasset($filename)
   {
