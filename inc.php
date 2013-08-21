@@ -11,6 +11,7 @@
     echo "<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css\">";
     echo "<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>";
     echo "<script src=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js\"></script>";
+    echo "<link rel=\"stylesheet\" href=\"/css/tehmichiglobalset.css\">";
     echo "<link rel=\"stylesheet\" href=\"/css/" . TEHPAGETITLE . ".css\">";
     echo "</head>";
     echo "<body>";
@@ -59,7 +60,7 @@
   }
   function mpi_navbar_start()
   {
-    echo "<nav class=\"navbar navbar-default\" role=\"navigation\">";
+    echo "<nav class=\"navbar navbar-inverse navbar-fixed-top\" role=\"navigation\">";
     echo "<div class=\"navbar-header\">";
     echo "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\">";
     echo "<span class=\"sr-only\">Przełącz wyświetlanie menu</span>";
