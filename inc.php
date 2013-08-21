@@ -117,7 +117,7 @@
   {
     if ($active)
     {
-      return "<div class=\"item active\"><img src=\"assets/".$person."-carousel.png\" alt=\"".$person."\"><div class=\"carousel-caption\">".$description."</div></div>";
+      return "<div class=\"item active\"><img src=\"assets/".$person."-carousel.png\" alt=\"".$person."\"><div class=\"carousel-caption\"><h3>".$person."</h3><p>".$description."</p></div></div>";
     } else {
       return "<div class=\"item\"><img src=\"assets/".$person."-carousel.png\" alt=\"".$person."\"><div class=\"carousel-caption\">".$description."</div></div>";
     }
