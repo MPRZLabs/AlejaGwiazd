@@ -121,4 +121,16 @@
       return "<div class=\"item\"><img src=\"assets/".$person."-carousel.png\" alt=\"".$person."\"><div class=\"carousel-caption\"><h3>".$person."</h3><p>".$description."</p></div></div>";
     }
   }
+  function mpi_showcase_begin()
+  {
+    return "<div class=\"row\">";
+  }
+  function mpi_showcase_person($name)
+  {
+    return "<div class=\"col-xs-6 col-md-4\"><a class=\"thumbnail\" href=\"".$name."\"><img alt=\"".$name."\" src=\"assets/".$name."-avatar.png\" /></a><h4>".$name."</h4></div>";
+  }
+  function mpi_showcase_end()
+  {
+    return "</div>";
+  }
 ?>
