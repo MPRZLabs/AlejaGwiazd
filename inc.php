@@ -121,7 +121,7 @@
       return "<div class=\"item\"><img src=\"assets/".$person."-carousel.png\" alt=\"".$person."\"><div class=\"carousel-caption\"><h3>".$person."</h3><p>".$description."</p></div></div>";
     }
   }
-  function mpi_showcase_($inside)
+  function mpi_showcase($inside)
   {
     return "<div class=\"row\">".$inside."</div>";
   }
