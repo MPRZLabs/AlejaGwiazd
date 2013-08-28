@@ -93,15 +93,18 @@
   function mpi_carousel($id, $items)
   {
     $carie = "<div id=\"" . $id . "\" class=\"carousel slide\"><ol class=\"carousel-indicators\">";
-    $indic = 0;
-    foreach ($items as $indk) {
-      if ($indic == 0)
-      {
-	$carie = $carie."<li class=\"active\" data-target=\"#".$id."\" data-slide-to=\"".$indic."\"></li>";
-      } else {
-	$carie = $carie."<li data-target=\"#".$id."\" data-slide-to=\"".$indic."\"></li>";
+    if (count($items) > 1)
+    {
+      $indic = 0;
+      foreach ($items as $indk) {
+	if ($indic == 0)
+	{
+	  $carie = $carie."<li class=\"active\" data-target=\"#".$id."\" data-slide-to=\"".$indic."\"></li>";
+	} else {
+	  $carie = $carie."<li data-target=\"#".$id."\" data-slide-to=\"".$indic."\"></li>";
+	}
+	$indic++;
       }
-      $indic++;
     }
     $carie = $carie."</ol><div class=\"carousel-inner\">";
     $indic = 0;
@@ -113,7 +116,9 @@
 	$carie = $carie . mpi_carousel_item($k, $v, false);
       }
     }
-    $carie = $carie."</div><a class=\"left carousel-control\" href=\"#".$id."\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-fast-backward\"></span></a><a class=\"right carousel-control\" href=\"#".$id."\" data-slide=\"next\"><span class=\"glyphicon glyphicon-fast-forward\"></span></a></div>";
+    if ($indic > 1) {
+      $carie = $carie."</div><a class=\"left carousel-control\" href=\"#".$id."\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-fast-backward\"></span></a><a class=\"right carousel-control\" href=\"#".$id."\" data-slide=\"next\"><span class=\"glyphicon glyphicon-fast-forward\"></span></a></div>";
+    }
     return $carie;
   }
   function mpi_carousel_item($person, $description, $active)
