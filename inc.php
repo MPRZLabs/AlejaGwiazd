@@ -121,16 +121,12 @@
       return "<div class=\"item\"><img src=\"assets/".$person."-carousel.png\" alt=\"".$person."\"><div class=\"carousel-caption\"><h3>".$person."</h3><p>".$description."</p></div></div>";
     }
   }
-  function mpi_showcase_begin()
+  function mpi_showcase_($inside)
   {
-    return "<div class=\"row\">";
+    return "<div class=\"row\">".$inside."</div>";
   }
   function mpi_showcase_person($name)
   {
     return "<div class=\"col-xs-6 col-md-4 showcase-person\"><a href=\"".$name."\"><img class=\"img-thumbnail img-responsive\" alt=\"".$name."\" src=\"assets/".$name."-avatar.png\" /></a><h4>".$name."</h4></div>";
-  }
-  function mpi_showcase_end()
-  {
-    return "</div>";
   }
 ?>
