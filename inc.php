@@ -50,7 +50,7 @@
   }
   function mpi_footer()
   {
-    echo "<div class=\"container\">Code&design by <a href=\"http://ijestfajnie.pl\">Michcioperz</a>. Powered by <a href=\"http://github.com/michcioperz/AlejaGwiazd\">MPi Framework</a> reusable under terms of MIT license. All rights for assets and content reserved.</div>";
+    echo "<footer class=\"container\">Code&design by <a href=\"http://ijestfajnie.pl\">Michcioperz</a>. Powered by <a href=\"http://github.com/michcioperz/AlejaGwiazd\">MPi Framework</a> reusable under terms of MIT license. All rights for assets and content reserved.</footer>";
     echo "</body>";
     echo "</html>";
   }
