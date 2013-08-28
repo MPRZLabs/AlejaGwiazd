@@ -13,6 +13,10 @@
     echo "<script src=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js\"></script>";
     echo "<link rel=\"stylesheet\" href=\"/css/tehmichiglobalset.css\">";
     echo "<link rel=\"stylesheet\" href=\"/css/" . TEHPAGETITLE . ".css\">";
+    echo "<script type=\"text/javascript\" src=\"http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js\" ></script>";
+    echo "<script type=\"text/javascript\" src=\"https://github.com/jackmoore/colorbox/raw/master/jquery.colorbox-min.js\"></script>";
+    echo "<script type=\"text/javascript\" src=\"https://github.com/jackmoore/colorbox/raw/master/i18n/jquery.colorbox-pl.js\"></script>";
+    echo "<link rel=\"stylesheet\" href=\"css/tehcolorboxglobalset.css\" type=\"text/css\" />";
     echo "</head>";
     echo "<body>";
     mpi_navbar();
@@ -125,8 +129,16 @@
   {
     return "<div class=\"row\">".$inside."</div>";
   }
+  function mpi_showcase_g($galleryid, $inside)
+  {
+    return "<div class=\"row\">".$inside."</div><script type=\"text/javascript\">$(document).ready(function(){$(\".".$galleryid."-gallery\").colorbox({rel:'".$galleryid"', transition:\"elastic\"});});</script>";
+  }
   function mpi_showcase_person($name)
   {
     return "<div class=\"col-xs-6 col-md-4 showcase-person\"><a href=\"".$name."\"><img class=\"img-thumbnail img-responsive\" alt=\"".$name."\" src=\"assets/".$name."-avatar.png\" /></a><h4>".$name."</h4></div>";
+  }
+  function mpi_showcase_image($galleryid, $troveboxid)
+  {
+    return "<div class=\"col-xs-6 col-md-3\"><a class=\"".$galleryid."-gallery\" href=\"https://awesomeness.openphoto.me/".$troveboxid."_870x870.jpg\"><img class=\"img-thumbnail img-responsive\" src=\"https://awesomeness.openphoto.me/".$troveboxid."_960x180.jpg\" /></a></div>";
   }
 ?>
