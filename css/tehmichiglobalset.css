@@ -14,6 +14,7 @@ body {
 }
 .showcase-person {
   height: 300px;
+  text-align: center;
 }
 .showcase-person .img-thumbnail {
   max-height: 280px;
