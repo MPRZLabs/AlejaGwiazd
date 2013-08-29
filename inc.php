@@ -153,7 +153,7 @@
     {
       case "popcorn":
       case "pm":
-	echo mpi_container(mpi_jumbo("<div class="vidcont"><iframe src=\"http://popcorn.webmadecontent.org/".$id."_\" style=\"width: 100%; height: 100%;\" frameborder='0' mozallowfullscreen webkitallowfullscreen allowfullscreen></iframe></div>"));
+	echo mpi_container(mpi_jumbo("<div class=\"vidcont\"><iframe src=\"http://popcorn.webmadecontent.org/".$id."_\" style=\"width: 100%; height: 100%;\" frameborder='0' mozallowfullscreen webkitallowfullscreen allowfullscreen></iframe></div>"));
 	break;
     }
   }
