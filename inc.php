@@ -86,6 +86,7 @@
   function mpi_navbar()
   {
     mpi_navbar_start();
+    mpi_navbar_page("Innervision");
     mpi_navbar_page("Kasia");
     mpi_navbar_page("Michcioperz");
     mpi_navbar_end();
