@@ -22,21 +22,21 @@ footer {
 .showcase-person .img-thumbnail {
   max-height: 280px;
 }
-@media (max-width: @screen-phone-max) {
+@media (max-width: 767px) {
   .vidcont {
     width: 560px;
     height: 358px;
   }
 }
-@media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+@media (min-width: 768px) and (max-width: 991px) {
   .vidcont {
     width: 640px;
     height: 403px;
   }
 }
-@media (min-width: @screen-md) {
+@media (min-width: 992px) {
   .vidcont {
-    width: 853px !important;
-    height: 523px !important;
+    width: 853px;
+    height: 523px;
   }
 }
