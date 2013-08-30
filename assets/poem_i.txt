@@ -1,11 +1,11 @@
 Mam nadzieję –
 Na lepsze jutro,
 Lepsze dzisiaj,
-Wczoraj…
+Wczoraj...
 
-Już jej nie mam,
+<span class="pull-right">Już jej nie mam,
 Bo jutro będzie
 Tak jak dzisiaj,
-Wczoraj…
+Wczoraj...</span>
 
 I całe życie temu.
