@@ -5,6 +5,12 @@
     ini_set('display_errors', 1);
   }
   define("TEHSITETITLE","Aleja Gwiazd");
+  $footnotes = "";
+  function mpi_footnote($stuff)
+  {
+    global $footnotes;
+    $footnotes = $footnotes.$stuff;
+  }
   function mpi_header()
   {
     echo "<!DOCTYPE html>";
@@ -36,7 +42,8 @@
   }
   function mpi_poem($codename, $poemtitle)
   {
-    return mpi_poembutton($codename, $poemtitle) . mpi_poemmodal($codename, $poemtitle);
+    mpi_footnote(mpi_poemmodal($codename, $poemtitle));
+    return mpi_poembutton($codename, $poemtitle);
   }
   function mpi_poemmodal($codename, $poemtitle)
   {
@@ -59,7 +66,9 @@
   }
   function mpi_footer()
   {
+    global $footnotes;
     echo "<footer class=\"container\">Code&design by <a href=\"http://ijestfajnie.pl\">Michcioperz</a>. Powered by <a href=\"http://github.com/michcioperz/AlejaGwiazd\">MPi Framework</a> reusable under terms of MIT license. All rights for assets and content reserved.</footer>";
+    echo $footnotes;
     echo "</body>";
     echo "</html>";
   }
