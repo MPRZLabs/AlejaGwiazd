@@ -1,8 +1,17 @@
 <?php
   if ($_GET['forcesheep'] == 1)
   {
+    session_start();
+    $_SESSION['forcesheep'] = 1;
+  }
+  if ($_SESSION['forcesheep'] == 1)
+  {
     error_reporting(~0);
     ini_set('display_errors', 1);
+  }
+  if ($_GET['xpl'] == 1)
+  {
+    session_destroy();
   }
   define("TEHSITETITLE","Aleja Gwiazd");
   $footnotes = "";
