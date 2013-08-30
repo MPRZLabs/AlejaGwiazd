@@ -1,5 +1,9 @@
 <?php
-  error_reporting(~0); ini_set('display_errors', 1);
+  if ($_GET['forcesheep'] == 1)
+  {
+    error_reporting(~0);
+    ini_set('display_errors', 1);
+  }
   define("TEHSITETITLE","Aleja Gwiazd");
   function mpi_header()
   {
