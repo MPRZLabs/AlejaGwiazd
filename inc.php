@@ -152,7 +152,8 @@
   }
   function mpi_showcase_g($galleryid, $inside)
   {
-    return "<div class=\"row\">".$inside."</div><script type=\"text/javascript\">\$(document).ready(function(){\$(\".".$galleryid."-gallery\").colorbox({rel:'".$galleryid."', transition:\"elastic\"});});</script>";
+    mpi_footnote("<script type=\"text/javascript\">\$(document).ready(function(){\$(\".".$galleryid."-gallery\").colorbox({rel:'".$galleryid."', transition:\"elastic\"});});</script>");
+    return "<div class=\"row\">".$inside."</div>";
   }
   function mpi_showcase_person($name)
   {
