@@ -68,7 +68,7 @@
     $file = fopen("assets/".$filename.".txt", "r");
     while(!feof($file))
     {
-      $output = $output.fgets($file)."<br>";
+      $output = $output.fgets($file)."<br />";
     }
     fclose($file);
     return $output;
