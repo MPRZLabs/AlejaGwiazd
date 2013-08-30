@@ -132,8 +132,9 @@
       }
     }
     if ($indic > 1) {
-      $carie = $carie."</div><a class=\"left carousel-control\" href=\"#".$id."\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-fast-backward\"></span></a><a class=\"right carousel-control\" href=\"#".$id."\" data-slide=\"next\"><span class=\"glyphicon glyphicon-fast-forward\"></span></a></div>";
+      $carie = $carie."</div><a class=\"left carousel-control\" href=\"#".$id."\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-fast-backward\"></span></a><a class=\"right carousel-control\" href=\"#".$id."\" data-slide=\"next\"><span class=\"glyphicon glyphicon-fast-forward\"></span></a>";
     }
+    $carie = $carie."</div></div>";
     return $carie;
   }
   function mpi_carousel_item($person, $description, $active)
