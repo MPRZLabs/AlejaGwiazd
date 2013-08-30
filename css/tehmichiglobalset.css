@@ -22,6 +22,10 @@ footer {
 .showcase-person .img-thumbnail {
   max-height: 280px;
 }
+.poeminion {
+  position: relative;
+  padding-left: 2cm;
+}
 @media (max-width: 767px) {
   .vidcont {
     width: 560px;

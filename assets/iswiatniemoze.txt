@@ -5,12 +5,12 @@ Teraz jesteś mocniejszy
 Niż kruche szkło
 I świat cię już nie strzaska.
 
-<span class="pull-right">Nie naprawię cię,
+<div class="poeminion">Nie naprawię cię,
 Bo nie jesteś zepsuta.
 To cię nie zniszczyło.
 Teraz jesteś mocniejsza
 Niż słabe drwo
-I świat cię już nie złamie.</span>
+I świat cię już nie złamie.</div>
 
 Nie naprawię was,
 Bo nie jesteście zepsuci.
@@ -19,4 +19,4 @@ Teraz jesteście mocniejsi
 Niż giętka stal
 I świat już was nie zagnie
 
-<center>Do swej woli.</center>
+<div class="poeminion">Do swej woli.</div>

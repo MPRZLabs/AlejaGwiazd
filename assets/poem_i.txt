@@ -3,9 +3,9 @@ Na lepsze jutro,
 Lepsze dzisiaj,
 Wczoraj...
 
-<span class="pull-right">Już jej nie mam,
+<div class="poeminion">Już jej nie mam,
 Bo jutro będzie
 Tak jak dzisiaj,
-Wczoraj...</span>
+Wczoraj...</div>
 
 I całe życie temu.
