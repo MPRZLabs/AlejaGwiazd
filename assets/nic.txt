@@ -6,7 +6,7 @@ Niektórzy nazywają mnie Pustką,
 
 Niektórzy nazywają mnie Próżnią.
 
-Próżną Próżnią…
+<div class="poeminion">Próżną Próżnią...</div>
 
 Ja nazywam siebie Nicością.
 

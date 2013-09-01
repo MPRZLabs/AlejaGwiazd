@@ -1,27 +1,21 @@
-Nie jestem dość dobra,
+<div class="poeminion">Nie jestem dość dobra,
 Abyś była dumna.
 To tylko łzy.
-Nie obchodzą cię.
-
+Nie obchodzą cię.</div>
 To ty mnie hamujesz,
 Aby nie być dumną.
 To tylko ja.
 Nie obchodzę cię.
-
-Nie chcesz mnie wypuścić,
+<div class="poeminion">Nie chcesz mnie wypuścić,
 Dzierżysz moje skrzydła.
 To tylko lot.
-Nie obchodzi cię(?)
-
+Nie obchodzi cię(?)</div>
 Szargasz mnie za sznurki,
 Rwąc tym moją skórę.
 To tylko krew.
-
-To tylko krzyk!
-
-To tylko ból!
-
+<div class="poeminion">To tylko krzyk!
+<div class="poeminion">To tylko ból!</div></div>
 Nie obchodzi cię.
 
-To tylko lot,
-Którego nie chcesz dać.
+<div class="poeminion">To tylko lot,
+Którego nie chcesz dać.</div>

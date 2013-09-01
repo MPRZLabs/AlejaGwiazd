@@ -3,7 +3,7 @@ Wstrzymaj oddech
 Na tę jedną chwilę.
 Czy to słyszysz?
 Piękne, prawda?
-Marzenia o szczęściu…
+Marzenia o szczęściu...
 
 Ja to czuję
 Na powiekach,
@@ -14,9 +14,9 @@ Się nie udusiła.
 
 Otwieram swe
 Oczy, patrzę –
-Na życie, na siebie…
+Na życie, na siebie...
 A to wszystko
 Nie jest szczęściem,
 Które miałam w głowie.
 
-To jest nasze życie.
+<div class="poeminion">To jest nasze życie.</div>

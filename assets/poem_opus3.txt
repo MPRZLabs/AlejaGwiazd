@@ -2,18 +2,15 @@ Kwitnie biały kwiat –
 Nie widziałeś jeszcze takich.
 Zarósł drogi szmat,
 Podpierany w polu makiem.
-
-To kwiaty smutku –
+<div class="poeminion">To kwiaty smutku –
 Skryte przed niezrozumieniem,
 Od jego skutków,
-W miejsca z tolerancji mieniem.
-
+W miejsca z tolerancji mieniem.</div>
 Tam zrozumienie
 Zatacza kręgi na niebie.
 Niezrozumienie –
 Wygnane hen! tam za siebie.
-
-Tam smutku znajdziesz
+<div class="poeminion">Tam smutku znajdziesz
 Całe białe łany kwiatów,
 A tolerancja –
-Najdzie pod postacią maków.
+Najdzie pod postacią maków.</div>
