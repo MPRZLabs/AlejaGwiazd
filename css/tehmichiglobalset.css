@@ -19,8 +19,13 @@ footer {
   height: 300px;
   text-align: center;
 }
+.showimg img {
+  height: 100%;
+  width: auto;
+}
 .showimg {
   height: 280px;
+  width: 100%;
 }
 .poeminion {
   position: relative;
