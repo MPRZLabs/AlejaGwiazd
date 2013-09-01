@@ -180,7 +180,7 @@
   }
   function mpi_showcase_person($name)
   {
-    return "<div class=\"col-xs-6 col-md-4 showcase-person\"><a href=\"".$name."\"><img class=\"img-thumbnail img-responsive\" alt=\"".$name."\" src=\"assets/".$name."-avatar.png\" /></a><h4>".$name."</h4></div>";
+    return "<div class=\"col-xs-6 col-md-4 showcase-person\"><a href=\"".$name."\"><div class=\"showimg\"><img class=\"img-thumbnail img-responsive\" alt=\"".$name."\" src=\"assets/".$name."-avatar.png\" /></div></a><h4>".$name."</h4></div>";
   }
   function mpi_showcase_image($galleryid, $troveboxid)
   {
