@@ -56,16 +56,27 @@
   }
   function mpi_poemmodal($codename, $poemtitle)
   {
-    return "<div class=\"modal fade\" id=\"modal_".$codename."\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modal_".$codename."_label\" aria-hidden=\"true\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button><h4 class=\"modal-title\"><span class=\"glyphicon glyphicon-book\"></span> ".$poemtitle."</h4></div><div class=\"modal-body\">" . mpi_readtextasset($codename) . "</div></div></div></div>";
+    return "<div class=\"modal fade\" id=\"modal_".$codename."\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modal_".$codename."_label\" aria-hidden=\"true\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button><h4 class=\"modal-title\"><span class=\"glyphicon glyphicon-book\"></span> ".$poemtitle."</h4></div><div class=\"modal-body\">" . mpi_readpoemasset($codename) . "</div></div></div></div>";
   }
   function mpi_poembutton($codename, $poemtitle)
   {
     return "<button onClick=\"\$('#modal_".$codename."').modal('show');\" class=\"btn btn-info\"><span class=\"glyphicon glyphicon-book\"></span> ".$poemtitle."</button>";
   }
-  function mpi_readtextasset($filename)
+  function mpi_readcodeasset($filename)
   {
     $output = "";
     $file = fopen("assets/".$filename.".txt", "r");
+    while(!feof($file))
+    {
+      $output = $output.fgets($file);
+    }
+    fclose($file);
+    return $output;
+  }
+  function mpi_readpoemasset($filename)
+  {
+    $output = "";
+    $file = fopen("assets/".$filename.".poem", "r");
     while(!feof($file))
     {
       $output = $output.fgets($file)."<br />";
