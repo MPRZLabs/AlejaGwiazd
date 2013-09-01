@@ -18,6 +18,7 @@ footer {
 .showcase-person {
   height: 300px;
   text-align: center;
+  padding-bottom: 50px;
 }
 .showimg img {
   height: 100%;
