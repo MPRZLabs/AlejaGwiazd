@@ -120,6 +120,8 @@
   function mpi_navbar()
   {
     mpi_navbar_start();
+    mpi_navbar_page("Bartosz");
+    mpi_navbar_page("GAndzia");
     mpi_navbar_page("Innervision");
     mpi_navbar_page("Kasia");
     mpi_navbar_page("Michcioperz");
