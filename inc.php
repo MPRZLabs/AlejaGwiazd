@@ -184,7 +184,7 @@
   }
   function mpi_showcase_image($galleryid, $troveboxid)
   {
-    return "<div class=\"col-xs-6 col-md-3\"><a class=\"".$galleryid."-gallery\" href=\"http://awesomeness.openphoto.me/".$troveboxid."_870x870.jpg\"><img class=\"img-thumbnail img-responsive\" src=\"http://awesomeness.openphoto.me/".$troveboxid."_960x180.jpg\" /></a></div>";
+    return "<div class=\"col-xs-6 col-md-3 mpi-gallery-image\"><a class=\"".$galleryid."-gallery\" href=\"http://awesomeness.openphoto.me/".$troveboxid."_870x870.jpg\"><img class=\"img-thumbnail img-responsive\" src=\"http://awesomeness.openphoto.me/".$troveboxid."_960x180.jpg\" /></a></div>";
   }
   function mpi_jumbovid($type, $id)
   {
