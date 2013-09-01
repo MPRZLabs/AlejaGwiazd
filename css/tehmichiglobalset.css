@@ -28,6 +28,9 @@ footer {
   height: 280px;
   width: 100%;
 }
+.mpi-gallery-image {
+  padding-bottom: 15px;
+}
 .poeminion {
   position: relative;
   padding-left: 2cm;
