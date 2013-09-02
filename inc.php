@@ -183,7 +183,7 @@
   {
     return "<div class=\"col-xs-6 col-md-4 showcase-person\"><a href=\"".$name."\"><div class=\"showimg\"><img class=\"img-thumbnail\" alt=\"".$name."\" src=\"assets/".$name."-avatar.png\" /></div></a><h4>".$name."</h4></div>";
   }
-  function mpi_showcase_image($galleryid, $troveboxid)
+  function mpi_showcase_imgtb($galleryid, $troveboxid)
   {
     return "<div class=\"col-xs-6 col-md-3 mpi-gallery-image\"><a class=\"".$galleryid."-gallery\" href=\"http://awesomeness.openphoto.me/".$troveboxid."_870x870.jpg\"><img class=\"img-thumbnail img-responsive\" src=\"http://awesomeness.openphoto.me/".$troveboxid."_960x180.jpg\" /></a></div>";
   }
