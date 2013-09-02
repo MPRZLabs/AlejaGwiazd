@@ -125,6 +125,7 @@
     mpi_navbar_page("GAndzia");
     mpi_navbar_page("Innervision");
     mpi_navbar_page("Kasia");
+    mpi_navbar_page("Keram");
     mpi_navbar_page("Michcioperz");
     mpi_navbar_end();
   }
