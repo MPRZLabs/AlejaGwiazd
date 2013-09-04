@@ -1,7 +1,7 @@
 <?php
-  if ($db = sqlite_open("conf.sqlite", 0666, $sqlerror))
+  if ($db = new SQLite3("conf.sqlite"))
   {
-    define(TEHSITETITLE, sqlite_fetch_array(sqlite_query($db, "SELECT key, value FROM prefs WHERE key='sitetitle' LIMIT 1"), SQLITE_ASSOC)['value']);
+    define(TEHSITETITLE, $db->query("SELECT key, value FROM prefs WHERE key='sitetitle' LIMIT 1")->fetchArray()['value']);
   } else {
     die($sqlerror);
   }
