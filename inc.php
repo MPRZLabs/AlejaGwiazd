@@ -25,8 +25,8 @@
     echo "<link rel=\"stylesheet\" href=\"/css/tehmichiglobalset.css\">";
     echo "<link rel=\"stylesheet\" href=\"/css/" . TEHPAGETITLE . ".css\">";
     echo "<script type=\"text/javascript\" src=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js\" ></script>";
-    echo "<script type=\"text/javascript\" src=\"https://github.com/jackmoore/colorbox/raw/master/jquery.colorbox-min.js\"></script>";
-    echo "<script type=\"text/javascript\" src=\"https://github.com/jackmoore/colorbox/raw/master/i18n/jquery.colorbox-pl.js\"></script>";
+    echo "<script type=\"text/javascript\" src=\"//cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.4.3/jquery.colorbox-min.js\"></script>";
+    echo "<script type=\"text/javascript\" src=\"js/colorbox-pl.js\"></script>";
     echo "<link rel=\"stylesheet\" href=\"css/tehcolorboxglobalset.css\" type=\"text/css\" />";
     echo "</head>";
     echo "<body>";
