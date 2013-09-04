@@ -1,5 +1,10 @@
 <?php
-  define("TEHSITETITLE","Aleja Gwiazd");
+  if ($db = sqlite_open("conf.sqlite", 0666, $sqlerror))
+  {
+    define(TEHSITETITLE, sqlite_fetch_array(sqlite_query($db, "SELECT key, value FROM prefs WHERE key='sitetitle' LIMIT 1"), SQLITE_ASSOC)['value']);
+  } else {
+    die($sqlerror);
+  }
   $footnotes = "";
   function mpi_footnote($stuff)
   {
@@ -72,11 +77,12 @@
   }
   function mpi_footer()
   {
-    global $footnotes;
+    global $footnotes, $db;
     echo "<footer class=\"container\">Code&design by <a href=\"http://ijestfajnie.pl\">Michcioperz</a>. Powered by <a href=\"http://github.com/michcioperz/AlejaGwiazd\">MPi Framework</a> reusable under terms of MIT license. All rights for assets and content reserved.</footer>";
     echo $footnotes;
     echo "</body>";
     echo "</html>";
+    sqlite_close($db);
   }
   function mpi_navbar_page($title)
   {
