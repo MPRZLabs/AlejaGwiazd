@@ -4,6 +4,7 @@ require "inc.php";
 mpi_header();
 echo mpi_carousel("main-showcase", array(
   "Bartosz" => "Epicki pojedynek w kuchni - Mordziak vs. Pan Pstrąg",
+  //"Eliza" => "\"No tak jakoś wyszło\"",
   "Gabi" => "wysoka, powyżej normy, chce się wyróżniać, ale i tak jest mainstream'owa. Podobno wygląda na wyniosłą i apodyktyczną, jednak jest bardzo gadatliwa i przyjazna otoczeniu.  Ma psychologiczne zapędy. Interesuje ją każdy rodzaj sztuki.",
   "GAndzia" => "",
   "Innervision" => "Nasze odkrycie - przyszłe gwiazdy rocka/metalu",
@@ -14,6 +15,7 @@ echo mpi_carousel("main-showcase", array(
 echo mpi_container(mpi_jumbo(mpi_readcodeasset("introintro")));
 echo mpi_container(mpi_showcase(
   mpi_showcase_person("Bartosz").
+  mpi_showcase_person("Eliza").
   mpi_showcase_person("Gabi").
   mpi_showcase_person("GAndzia").
   mpi_showcase_person("Innervision").
