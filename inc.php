@@ -1,18 +1,4 @@
 <?php
-  if ($_GET['forcesheep'] == 1)
-  {
-    session_start();
-    $_SESSION['forcesheep'] = 1;
-  }
-  if ($_SESSION['forcesheep'] == 1)
-  {
-    error_reporting(~0);
-    ini_set('display_errors', 1);
-  }
-  if ($_GET['xpl'] == 1)
-  {
-    session_destroy();
-  }
   define("TEHSITETITLE","Aleja Gwiazd");
   $footnotes = "";
   function mpi_footnote($stuff)
@@ -33,7 +19,7 @@
     echo "<script src=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js\"></script>";
     echo "<link rel=\"stylesheet\" href=\"/css/tehmichiglobalset.css\">";
     echo "<link rel=\"stylesheet\" href=\"/css/" . TEHPAGETITLE . ".css\">";
-    echo "<script type=\"text/javascript\" src=\"http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js\" ></script>";
+    echo "<script type=\"text/javascript\" src=\"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js\" ></script>";
     echo "<script type=\"text/javascript\" src=\"https://github.com/jackmoore/colorbox/raw/master/jquery.colorbox-min.js\"></script>";
     echo "<script type=\"text/javascript\" src=\"https://github.com/jackmoore/colorbox/raw/master/i18n/jquery.colorbox-pl.js\"></script>";
     echo "<link rel=\"stylesheet\" href=\"css/tehcolorboxglobalset.css\" type=\"text/css\" />";
@@ -60,7 +46,7 @@
   }
   function mpi_poembutton($codename, $poemtitle)
   {
-    return "<button onClick=\"\$('#modal_".$codename."').modal('show');\" class=\"btn btn-info\"><span class=\"glyphicon glyphicon-book\"></span> ".$poemtitle."</button>";
+    return "<button data-toggle=\"modal\" data-target=\"#modal_".$codename."\" class=\"btn btn-info\"><span class=\"glyphicon glyphicon-book\"></span> ".$poemtitle."</button>";
   }
   function mpi_readcodeasset($filename)
   {
