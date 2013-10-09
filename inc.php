@@ -188,6 +188,9 @@
       case "pm":
 	echo mpi_container(mpi_jumbo("<div class=\"vidcont\"><iframe src=\"http://popcorn.webmadecontent.org/".$id."_\" style=\"width: 100%; height: 100%;\" frameborder='0' mozallowfullscreen webkitallowfullscreen allowfullscreen></iframe></div>"));
 	break;
+      case "youtube":
+      case "yt":
+	echo mpi_container(mpi_jumbo("<div class=\"vidcont\"><iframe src=\"//www.youtube.com/embed/".$id."?rel=0\" style=\"width: 100%; height: 100%;\" frameborder='0' mozallowfullscreen webkitallowfullscreen allowfullscreen></iframe></div>"));
     }
   }
 ?>
