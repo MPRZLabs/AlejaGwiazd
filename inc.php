@@ -134,6 +134,7 @@
     mpi_navbar_page("Kasia");
     mpi_navbar_page("Keram");
     mpi_navbar_page("Michcioperz");
+    mpi_navbar_page("Misiek");
     mpi_navbar_end();
   }
   function mpi_carousel($id, $items)
