@@ -193,4 +193,8 @@
 	echo mpi_container(mpi_jumbo("<div class=\"vidcont\"><iframe src=\"//www.youtube.com/embed/".$id."?rel=0\" style=\"width: 100%; height: 100%;\" frameborder='0' mozallowfullscreen webkitallowfullscreen allowfullscreen></iframe></div>"));
     }
   }
+  function mpi_facebox($uri)
+  {
+    return "<iframe src=\"".$uri."\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:The pixel width of the pluginpx; height:80px;\" allowTransparency=\"true\"></iframe>";
+  }
 ?>
