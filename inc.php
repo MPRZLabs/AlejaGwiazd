@@ -30,6 +30,20 @@
     echo "<link rel=\"stylesheet\" href=\"css/tehcolorboxglobalset.css\" type=\"text/css\" />";
     echo "</head>";
     echo "<body>";
+    if (defined('MPI_FBSDK'))
+    {
+      if (MPI_FBSDK == true)
+      {
+	echo "<div id=\"fb-root\"></div>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = \"//connect.facebook.net/en_US/all.js#xfbml=1\";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>";
+      }
+    }
     mpi_navbar();
   }
   function mpi_container($inside)
@@ -191,6 +205,9 @@
       case "youtube":
       case "yt":
 	echo mpi_container(mpi_jumbo("<div class=\"vidcont\"><iframe src=\"//www.youtube.com/embed/".$id."?rel=0\" style=\"width: 100%; height: 100%;\" frameborder='0' mozallowfullscreen webkitallowfullscreen allowfullscreen></iframe></div>"));
+      case "facebook":
+      case "fb":
+	echo mpi_container(mpi_jumbo("<div class=\"fb-post\" data-href=\"".$id."\"></div>"));
     }
   }
   function mpi_facebox($uri)
