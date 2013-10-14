@@ -22,7 +22,7 @@ echo mpi_container(mpi_showcase(
   mpi_showcase_person("Innervision").
   mpi_showcase_person("Kasia").
   mpi_showcase_person("Keram").
-  mpi_showcase_person("Michcioperz")
+  mpi_showcase_person("Michcioperz").
   mpi_showcase_person("Misiek");
 ));
 mpi_footer();
