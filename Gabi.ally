@@ -1,0 +1,46 @@
+start
+tytuł Gabi
+góra
+menu
+karuzela( Gabi
+potrzebuję Gabi-carousel.png
+potrzebuję Gabi-avatar.png
+element assets/Gabi-carousel.png Gabiintro
+)karuzela
+środek(
+jumbo(
+galeria( Gabi1
+zdjęcie tb custom/201302/202806_255855997850738_838042807_o-1b9e89
+zdjęcie tb custom/201301/DSC00749-4c4f6a
+zdjęcie tb custom/201105/DSC03182-192149
+zdjęcie tb custom/201105/DSC03100-6ec517
+zdjęcie tb custom/201105/DSC03026-6cc1ce
+zdjęcie tb custom/201104/DSC02050-375346
+zdjęcie tb custom/201104/DSC02025-593d4b
+zdjęcie tb custom/201104/DSC01984-2f0159
+zdjęcie tb custom/201104/DSC01907-7df165
+zdjęcie tb custom/201104/DSC01918-12d590
+zdjęcie tb custom/201104/DSC01921-1fd0ae
+zdjęcie tb custom/201103/DSC01599-4cf848
+zdjęcie tb custom/201103/DSC01556-654052
+zdjęcie tb custom/201103/DSC01566-8f5c87
+zdjęcie tb custom/201103/DSC01579-3eeeda
+)galeria
+)jumbo
+jumbo(
+galeria( Gabi2
+zdjęcie tb custom/201302/DSC01675-8fc3ae
+zdjęcie tb custom/201302/DSC01724-1c10bd
+zdjęcie tb custom/201302/DSC01745-30dfcb
+zdjęcie tb custom/201302/DSC01522-42e313
+zdjęcie tb custom/201302/DSC01406-fa6cb
+zdjęcie tb custom/201302/DSC01430-244421
+zdjęcie tb custom/201302/DSC01431-8e57e9
+zdjęcie tb custom/201302/DSC01437-6e023b
+zdjęcie tb custom/201302/DSC01457-f465b
+zdjęcie tb custom/201302/DSC01460-47dd4d
+zdjęcie tb custom/201302/DSC01464-2bc9de
+zdjęcie tb custom/201302/DSC01469-9352c5
+)galeria
+)jumbo
+)środek

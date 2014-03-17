@@ -1,0 +1,28 @@
+start
+tytuł Kasia Pawłowska
+góra
+menu
+karuzela( Kasia_Pawłowska
+potrzebuję Kasia_Pawłowska-carousel.png
+element assets/Kasia_Pawłowska-carousel.png Kasiaintro
+)karuzela
+środek(
+)środek
+środek(
+jumbo(
+import Kasiapaprotki
+)jumbo
+jumbo(
+galeria( Kasia_Pawłowska
+zdjęcie tb custom/201302/kp01-5297c9
+zdjęcie tb custom/201302/kp02-46fb8c
+zdjęcie tb custom/201302/kp03-7c4ae5
+zdjęcie tb custom/201302/kp04-8e59db
+)galeria
+)jumbo
+#jumbo(
+#import Kasiawiersze
+#wiersz Lolol
+#)jumbo
+)środek
+koniec

@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Autour+One|Poiret+One&subset=latin-ext);
+body {
+  padding-top: 50px;
+  font-family: 'Autour One', 'Courier New', sans-serif;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 25, 0.4);
+  border-radius: 50px;
+  padding: 10px;
+}
+.carousel-caption > h3 {
+  text-shadow: 5px 5px 5px rgba(75, 0, 0, 0.8);
+}
+
+.carousel-caption > p {
+  text-shadow: 2px 2px 2px rgba(0, 75, 0, 0.4);
+}
+
+.container {
+  padding-top: 20px;
+}
+
+footer {
+  font-family: 'Poiret One', monospace;
+  font-size: 12px;
+}
+
+.showcase-person {
+  height: 350px;
+  display: block;
+}
+
+.showcase-person img {
+  max-height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+.gallanonyme {
+  text-align: center;
+}
+
+.gallerian {
+  height: 180px;
+  display: block;
+}
+
+.gallerian img {
+  max-height: 180px;
+  padding-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}

@@ -1,0 +1,1 @@
+<h3>Misiek</h3><p>Pierwszej klasy stunter, urodzony rowerzysta, niesamowity akrobata. Robi różne niesamowite rzeczy np: jeździ na przednim, tylnym kole dodaje do tego różne ewolucje, staje na rowerze,niektórzy mogą uznać że takie akrobacje tylko w Hollywood</p>

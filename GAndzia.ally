@@ -1,0 +1,29 @@
+start
+tytuł GAndzia
+góra
+menu
+karuzela( GAndzia
+potrzebuję GAndzia-carousel.png
+element assets/GAndzia-carousel.png  
+)karuzela
+środek(
+jumbo(
+galeria( GAndzia
+potrzebuję GAndzia-1.jpg
+zdjęcie -- assets/GAndzia-1.jpg
+potrzebuję GAndzia-avatar.png
+zdjęcie -- assets/GAndzia-avatar.png
+potrzebuję GAndzia-3.jpg
+zdjęcie -- assets/GAndzia-3.jpg
+potrzebuję GAndzia-4.jpg
+zdjęcie -- assets/GAndzia-4.jpg
+potrzebuję GAndzia-5.jpg
+zdjęcie -- assets/GAndzia-5.jpg
+potrzebuję GAndzia-6.jpg
+zdjęcie -- assets/GAndzia-6.jpg
+potrzebuję GAndzia-7.jpg
+zdjęcie -- assets/GAndzia-7.jpg
+)galeria
+)jumbo
+)środek
+koniec

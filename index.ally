@@ -1,0 +1,28 @@
+start
+tytuł Start
+góra
+menu
+karuzela( intro
+potrzebuję Gabi-carousel.png
+element assets/Gabi-carousel.png Gabiintro
+potrzebuję Kasia_Pawłowska-carousel.png
+element assets/Kasia_Pawłowska-carousel.png Kasiaintro
+potrzebuję Misiek-carousel.png
+element assets/Misiek-carousel.png Misiekintro
+)karuzela
+środek(
+jumbo(
+import naczelny
+)jumbo
+jumbo(
+galeria( index
+osoba Eliza_Brzózka
+osoba Eliza_Drobek
+osoba Gabi
+osoba GAndzia
+osoba Kasia_Pawłowska
+osoba Misiek
+)galeria
+)jumbo
+)środek
+koniec
