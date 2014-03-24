@@ -4,7 +4,7 @@ góra
 menu
 środek(
 jumbo(
-potrzebuję Eliza_Brzózka-avatar.png
-o_O <img src="assets/Eliza_Brzózka-avatar.png" style="max-height: 200px;" class="thumbnail pull-left"><p class="lead"></p>
+potrzebuję Eliza_Brzózka-avatar.jpg
+o_O <img src="/assets/Eliza_Brzózka-avatar.jpg" style="max-height: 200px;" class="thumbnail pull-left"><p class="lead"></p>
 )jumbo
 koniec

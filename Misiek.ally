@@ -3,8 +3,8 @@ tytuł Misiek
 góra
 menu
 karuzela( Misiek
-potrzebuję Misiek-carousel.png
-element assets/Misiek-carousel.png Misiekintro
+potrzebuję Misiek-carousel.jpg
+element /assets/Misiek-carousel.jpg Misiekintro
 )karuzela
 środek(
 jumbo(

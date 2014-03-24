@@ -3,9 +3,9 @@ tytuł Gabi
 góra
 menu
 karuzela( Gabi
-potrzebuję Gabi-carousel.png
-potrzebuję Gabi-avatar.png
-element assets/Gabi-carousel.png Gabiintro
+potrzebuję Gabi-carousel.jpg
+potrzebuję Gabi-avatar.jpg
+element /assets/Gabi-carousel.jpg Gabiintro
 )karuzela
 środek(
 jumbo(
@@ -44,3 +44,4 @@ zdjęcie tb custom/201302/DSC01469-9352c5
 )galeria
 )jumbo
 )środek
+koniec

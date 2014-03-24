@@ -1,0 +1,9 @@
+.jumbotron h2 {
+  text-shadow: 2px 2px 5px rgba(75, 0, 0, 0.8);
+}
+.jumbotron small {
+  text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8);
+}
+.jumbotron p {
+  text-shadow: -2px -2px 10px rgba(0, 50, 50, 0.8);
+}

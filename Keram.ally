@@ -1,0 +1,22 @@
+start
+tytuł Keram
+góra
+menu
+karuzela( Keram
+potrzebuję Keram-carousel.jpg
+element /assets/Keram-carousel.jpg Keramintro
+)karuzela
+środek(
+jumbo(
+galeria( Keram
+zdjęcie tb custom/201211/mb--1--7970a0
+zdjęcie tb custom/201211/mb--2--590843
+zdjęcie tb custom/201211/mb--3--1b28b7
+zdjęcie tb custom/201211/mb--4--5e4033
+zdjęcie tb custom/201211/mb--5--16406c
+zdjęcie tb custom/201211/mb--6--3958bc
+zdjęcie tb custom/201211/mb--7--86fcc8
+)galeria
+)jumbo
+)środek
+koniec

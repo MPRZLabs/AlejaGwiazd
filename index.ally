@@ -1,14 +1,21 @@
 start
 tytuł Start
+opis Talenty są wszędzie (a przynajmniej tutaj ich pełno)
 góra
 menu
 karuzela( intro
-potrzebuję Gabi-carousel.png
-element assets/Gabi-carousel.png Gabiintro
-potrzebuję Kasia_Pawłowska-carousel.png
-element assets/Kasia_Pawłowska-carousel.png Kasiaintro
-potrzebuję Misiek-carousel.png
-element assets/Misiek-carousel.png Misiekintro
+potrzebuję Bartosz-carousel.jpg
+element /assets/Bartosz-carousel.jpg Bartoszintro
+potrzebuję Damian-carousel.jpg
+element /assets/Damian-carousel.jpg Damianintro
+potrzebuję Gabi-carousel.jpg
+element /assets/Gabi-carousel.jpg Gabiintro
+potrzebuję Kasia_Pawłowska-carousel.jpg
+element /assets/Kasia_Pawłowska-carousel.jpg Kasiaintro
+potrzebuję Keram-carousel.jpg
+element /assets/Keram-carousel.jpg Keramintro
+potrzebuję Misiek-carousel.jpg
+element /assets/Misiek-carousel.jpg Misiekintro
 )karuzela
 środek(
 jumbo(
@@ -16,12 +23,19 @@ import naczelny
 )jumbo
 jumbo(
 galeria( index
-osoba Eliza_Brzózka
+osoba Bartosz
+osoba Damian
+#osoba Eliza_Brzózka
 osoba Eliza_Drobek
 osoba Gabi
 osoba GAndzia
 osoba Kasia_Pawłowska
+osoba Katarzyna_i_Piotr
+osoba Keram
+osoba Kinga_i_Piotr
+#osoba Innervision
 osoba Misiek
+osoba Natalia_i_Marcin
 )galeria
 )jumbo
 )środek
